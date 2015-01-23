@@ -23,7 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
    # Compute the inverse unless the cache already exists
     getinverse <- function() inv
 
-   # Return the special "vector"
+   # Return the special "matrix"
     list(set = set, get = get, getinverse = getinverse, setinverse = setinverse)
 }
 
